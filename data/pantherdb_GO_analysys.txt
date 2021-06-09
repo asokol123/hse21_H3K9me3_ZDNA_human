@@ -1,0 +1,12 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20210224)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.4735677 Released 2021-05-01
+Analyzed List:	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20595)	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (28)	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (expected)	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (over/under)	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (fold Enrichment)	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (raw P-value)	H3K9me3.intersect_with_DeepZ.genes_uniq.txt (FDR)
