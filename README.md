@@ -80,6 +80,50 @@ bedtools intersect  -a DeepZ.bed   -b  H3K9me9.merged.hg19.bed  >  H3K9me9.inter
 ## GO-анализ
 Используем `ChIPpeakAnno.R` и загружаем в pantherdb.org
 
+Полученные уникальные гены:
+```
+DDX11L1
+SDF4
+CR2
+ZNF695
+ZNF717
+CD47
+PODXL2
+HLTF
+TRIM59
+IFT80
+EIF5A2
+KDM3B
+RPS14
+LOC650226
+MESTIT1
+XKR6
+TCF24
+XKR9
+LACTB2
+ARHGAP39
+ZCCHC7
+ZNF883
+PSMB7
+C10orf88
+GLS2
+FGF7
+TAOK2
+DHX40
+ZFR2
+ZNF846
+HPN-AS1
+MACROD2
+SEL1L2
+NDUFA6-DT
+```
+
 `No statistically significant results`
 
+Но как видим, результаты не статистически значимы
+
 Полные результаты в [файле](./images/pantherdb_GO_analysys.txt)
+
+Самые значимые (и все равно не статистически значимые) на картинке:
+
+![](./images/go_analysis.png)
